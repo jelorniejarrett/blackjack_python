@@ -1,6 +1,6 @@
 # Python Blackjack (Command Line Game)
 
-A simple **command-line Blackjack game written in Python**.
+A simple command-line Blackjack game written in Python.
 This project simulates a basic version of the Blackjack card game where a player competes against a dealer.
 
 The program demonstrates fundamental programming concepts such as loops, functions, lists, and randomization.
@@ -10,7 +10,7 @@ The program demonstrates fundamental programming concepts such as loops, functio
 
 * Standard Blackjack gameplay against a dealer
 * Random card drawing from a generated deck
-* Player options to **Hit** or **Stand**
+* Player options to Hit or Stand
 * Dealer follows the rule of drawing until reaching **17**
 * Automatic win/loss/tie detection
 * Option to replay the game after each round
@@ -19,33 +19,43 @@ The program demonstrates fundamental programming concepts such as loops, functio
 ## How the Game Works
 
 1. A deck of cards is generated.
-2. Both the **player** and **dealer** receive two cards.
+2. Both the player and dealer receive two cards.
 3. The player chooses to:
 
-   * **Hit** – draw another card
-   * **Stand** – end their turn
-4. If the player exceeds **21**, they **bust** and lose.
-5. The dealer then draws cards until their total is **17 or higher**.
+   * Hit – draw another card
+   * Stand – end their turn
+4. If the player exceeds 21, they bust and lose.
+5. The dealer then draws cards until their total is 17 or higher.
 6. The final hand values are compared to determine the winner.
-
-
-## Technologies Used
-
-* Python 3
-* random module (for card selection)
 
 
 ## How to Run the Program
 
-1. Install Python 3
+### Requirements
+- Python 3 installed
+- Terminal / Command Prompt
 
-2. Clone the repository
-https://github.com/jelorniejarrett/blackjack_python
+### 1. Clone the Repository
+```bash
+git clone https://github.com/jelorniejarrett/blackjack_python.git
+```
 
-3. Run the program
-python blackjack.py
+### 2. Navigate to the Project Directory
+```bash
+cd blackjack_python
+```
 
----
+### 3. Run the Program
+
+On macOS/Linux:
+```bash
+python3 blackjack.py
+```
+On Windows:
+```bash
+python3 blackjack.py
+```
+
 
 ## Example Gameplay
 
@@ -84,13 +94,12 @@ This project demonstrates several core programming concepts:
 
 Possible enhancements for this project include:
 
-* Implementing full Blackjack rules for **Ace values (1 or 11)**
-* Adding **betting mechanics**
-* Creating a **graphical user interface**
-* Supporting **multiple players**
+* Implementing full Blackjack rules for Ace values (1 or 11)
+* Adding betting mechanics
+* Creating a graphical user interface
+* Supporting multiple players
 * Improving input validation
 
----
 
 ## Author
 
@@ -99,4 +108,3 @@ Possible enhancements for this project include:
 Computer Science / Programming Student
 Project created as a learning exercise in Python programming.
 
----
