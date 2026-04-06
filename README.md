@@ -37,12 +37,12 @@ The program demonstrates fundamental programming concepts such as loops, functio
 
 ## How to Run the Program
 
-###1. Install Python 3
+1. Install Python 3
 
-###2. Clone the repository
+2. Clone the repository
 https://github.com/jelorniejarrett/blackjack_python
 
-###3. Run the program
+3. Run the program
 python blackjack.py
 
 ---
